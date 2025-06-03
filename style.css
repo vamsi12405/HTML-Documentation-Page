@@ -1,0 +1,54 @@
+#main {
+	width:100%;
+}
+.left {
+	display:inline-block;
+	width:25%;
+	float:left;
+}
+.right {
+	display:inline-block;
+	width:70%;
+	float:right;
+}
+ul.left-class {
+	list-style-type:none;
+	padding:0;
+	
+}
+ul.left-class li {
+	display:block;
+	text-algn:left;
+	border:1px solid black;
+	padding:5px;
+	margin:5px;
+}
+ul.left-class li a {
+	text-decoration:none;
+	color:black;
+}
+
+code {
+	display:inline-block;
+	background-color:grey;
+	width:300px;
+	padding:20px;
+	margin:auto;
+}
+
+#encapsulation,#polymorphism,#abstraction,#inheritence,#objectsandclasses {
+	font-display:bold;
+	font-size:35px;
+}
+
+@media only screen and (max-width:1000px){
+	.left{
+		width:300px;
+		display:inline-block
+	}
+	.right{
+		width:65%;
+		display:inline-block;
+		
+	}
+}
